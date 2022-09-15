@@ -4,8 +4,7 @@ SERVER  =
 COMMIT  =${shell git rev-parse --short HEAD}
 VERSION ?=${COMMIT}
 TYPE    ?=minikube
-REPO_NAME=s410071012/remodeling_platform
-
+REPO_NAME=imilabremodeling/dev2_point2
 
 build-image:
 	
